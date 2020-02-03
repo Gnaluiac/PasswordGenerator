@@ -12,7 +12,7 @@ class PasswordGenerator:
         return self.password
 
     #def print(self):
-    #    print(self.password)
+     #   print(self.password)
 
     def random_number(self):
        rand_num = randint(33, 126) #ASCII table !(33) to ~(126) -- before and after those decimals are null characters
